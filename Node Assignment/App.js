@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"));
 
 //SQL Connection
 const mysql = require('mysql');
-var mysqlConnection = mysql.createConnection({
+const mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password:'root',
